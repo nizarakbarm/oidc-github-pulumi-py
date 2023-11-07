@@ -54,7 +54,7 @@ def create_assume_role_policy(args):
             "Action": "sts:AssumeRoleWithWebIdentity",
             "Condition": {
                 "StringLike": {
-                    f"{url}:sub": "repo:OWNER/*:*"
+                    f"{url}:sub": "repo:OWNER/REPOSITORY:environment:NAME"
                     },
                 "StringEquals": {
                     f"{url}:aud": audience
