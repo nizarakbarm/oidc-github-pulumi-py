@@ -2,6 +2,8 @@
 
 This script is used for provisioning an OIDC provider in AWS for GitHub Action.
 
+I created a reference Python Script based on https://github.com/pulumi/examples/tree/master/aws-py-oidc-provider-pulumi-cloud with a few additions.
+
 ### Prerequisites
 
 - Pulumi
