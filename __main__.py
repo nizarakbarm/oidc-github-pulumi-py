@@ -3,11 +3,10 @@
 import pulumi
 import pulumi_aws as aws
 from pulumi_aws import iam
-import requests
 import subprocess
 import OpenSSL
 import json
-import yaml
+
 
 # Define audience, idp_url, and base_url
 audience = 'sts.amazonaws.com'
